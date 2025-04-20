@@ -1,0 +1,47 @@
+.box{
+    width: 100px;
+    height: 100px;
+}
+#box1{
+    background-color: blueviolet;
+    position: absolute;
+    top: 10px;
+    z-index: 3;
+}
+#box2{
+    background-color: red;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    z-index: 2;
+}
+#box3{
+    background-color: rgb(40, 173, 82);
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    z-index: 1;
+}
+.container{
+    width: 60%;
+    height: 250px;
+    background-color: brown;
+    position: relative;
+    left: 200px;
+}
+.boxItem{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(50, 202, 202);
+    position: absolute;
+}
+#b1{
+    left: 250px;
+    border-radius: 10% 20% 60% 80%;
+}
+#b2{
+    border-radius: 50% 50% 0% 0%;
+    bottom: 30px;
+    left: -30px;
+    z-index: 2;
+}
