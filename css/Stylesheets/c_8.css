@@ -1,0 +1,7 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    position: sticky;
+    top: 50px;
+}
